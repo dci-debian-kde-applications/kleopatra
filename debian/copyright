@@ -1,47 +1,116 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 
 Files: *
-Copyright: 2016, Sandro S. Andrade <sandroandrade@kde.org>
-License: GPL-2+3+KDEeV
+Copyright: 2015-2016, Intevation GmbH
+           2001-2010, Klarälvdalens Datakonsult AB
+           2001-2008, Klar�vdalens Datakonsult AB
+           2002-2003, Marc Mutz <mutz@kde.org>
+           2008, Nokia Corporation and/or its subsidiary(-ies)
+License: GPL-2+
+
+Files: src/libkleopatraclient/core/command.cpp
+       src/libkleopatraclient/core/command.h
+       src/libkleopatraclient/core/command_p.h
+       src/libkleopatraclient/core/decryptverifyfilescommand.cpp
+       src/libkleopatraclient/core/decryptverifyfilescommand.h
+       src/libkleopatraclient/core/initialization.cpp
+       src/libkleopatraclient/core/initialization.h
+       src/libkleopatraclient/core/selectcertificatecommand.cpp
+       src/libkleopatraclient/core/selectcertificatecommand.h
+       src/libkleopatraclient/core/signencryptfilescommand.cpp
+       src/libkleopatraclient/core/signencryptfilescommand.h
+       src/libkleopatraclient/gui/certificaterequester.cpp
+       src/libkleopatraclient/gui/certificaterequester.h
+       src/utils/gnupg-registry.h
+       src/utils/kdpipeiodevice.cpp
+       src/utils/kdpipeiodevice.h
+Copyright: 2007-2008, Klarälvdalens Datakonsult AB
+           2006-2007, g10 Code GmbH
+License: LGPL-2+
+
+Files: src/conf/configuredialog.cpp
+       src/conf/configuredialog.h
+       src/models/modeltest.cpp
+       src/models/modeltest.h
+       src/utils/checker.h
+       src/utils/clipboardmenu.cpp
+       src/utils/clipboardmenu.h
+       src/utils/kdtoolsglobal.h
+       src/utils/pimpl_ptr.h
+Copyright: 2000, Espen Sand <espen@kde.org>
+           2001-2008, Klarälvdalens Datakonsult AB
+           2001-2002, Marc Mutz <mutz@kde.org>
+           2014-2016, Montel Laurent <montel@kde.org>
+           2007, Trolltech ASA
+License: GPL-2
 
 Files: doc/*
-Copyright: 2016, Sandro Andrade <sandroandrade@kde.org>
+Copyright: 2004, Daniel Molkentin
+           2002, Steffen Hansen
+           2002, Matthias Kalle Dalheimer
+           2004-2010, Klarälvdalens Datakonsult AB
 License: GFDL-NIV-1.3+
 
-Files: debian/*
-Copyright: 2016, Maximiliano Curia <maxy@debian.org>
-License: GPL-2+
- This program is free software; you can redistribute it and/or modify
+Files: src/utils/kdlogtextwidget.cpp
+       src/utils/kdlogtextwidget.h
+Copyright: 2001-2010, Klaralvdalens Datakonsult AB
+License: LGPL-2+3
+
+Files: src/utils/kdsignalblocker.cpp
+       src/utils/kdsignalblocker.h
+Copyright: 2001-2009, Klaralvdalens Datakonsult AB
+License: GPL-2+3
+
+Files: src/kleo-assuan.h
+Copyright: 2001-2007, Free Software Foundation, Inc
+           2008, Klarälvdalens Datakonsult AB
+License: GPL-2+_or_LGPL-2+
+ Kleopatra is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation; either version 2 of the License, or
  (at your option) any later version.
  .
- This program is distributed in the hope that it will be useful,
+ Kleopatra is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
  .
- The complete text of the GNU General Public License version 2 can be found in
- `/usr/share/common-licenses/GPL-2'.
-
-License: GPL-2+3+KDEeV
- This program is free software; you can redistribute it and/or
- modify it under the terms of the GNU General Public License as
- published by the Free Software Foundation; either version 2 of
- the License or (at your option) version 3 or any later version
- accepted by the membership of KDE e.V. (or its successor approved
- by the membership of KDE e.V.), which shall act as a proxy
- defined in Section 14 of version 3 of the license.
+ --
+ Assuan is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Lesser General Public License as
+ published by the Free Software Foundation; either version 2.1 of
+ the License, or (at your option) any later version.
  .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
+ Assuan is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
  .
+ --
  The complete text of the GNU General Public License version 2 can be found in
  `/usr/share/common-licenses/GPL-2', likewise, the complete text of the GNU
- General Public License version 3 can be found in
- `/usr/share/common-licenses/GPL-3'.
+ Lesser General Public License version 2.1 can be found in
+ `/usr/share/common-licenses/LGPL-2.1'.
+
+Files: src/utils/gnupg-registry.c
+Copyright: 2005-2007, g10 Code GmbH
+License: LGPL-2.1+
+ GpgEX is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public License
+ as published by the Free Software Foundation; either version 2.1
+ of the License, or (at your option) any later version.
+ .
+ GpgEX is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ General Public License for more details.
+ .
+ The complete text of the GNU Lesser General Public License version 2.1 can be
+ found in `/usr/share/common-licenses/LGPL-2.1'.
+
+Files: debian/*
+Copyright: 2016, Maximiliano Curia <maxy@debian.org>
+License: LGPL-2+
 
 License: GFDL-NIV-1.3+
  Permission is granted to copy, distribute and/or modify this document
@@ -53,3 +122,70 @@ License: GFDL-NIV-1.3+
  .
  The complete text of the GNU Free Documentation License version 1.3 can be
  found in `/usr/share/common-licenses/GFDL-1.3'.
+
+License: GPL-2
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License, version 2, as
+ published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2 can be found in
+ `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+
+ Kleopatra is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ Kleopatra is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2 can be found in
+ `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+3
+ This file may be distributed and/or modified under the terms of the
+ GNU General Public License version 2 and version 3 as published by the
+ Free Software Foundation and appearing in the file LICENSE.GPL included.
+ .
+ This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE
+ WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+ .
+ The complete text of the GNU General Public License version 2 can be found in
+ `/usr/share/common-licenses/GPL-2', likewise, the complete text of the GNU
+ General Public License version 3 can be found in
+ `/usr/share/common-licenses/GPL-3'.
+
+License: LGPL-2+
+ KleopatraClient is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ KleopatraClient is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ The complete text of the GNU Library General Public License version 2 can be
+ found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2+3
+ This file may be distributed and/or modified under the terms of the
+ GNU Lesser General Public License version 2 and version 3 as published by the
+ Free Software Foundation and appearing in the file LICENSE.LGPL included.
+ .
+ This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE
+ WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+ .
+ The complete text of the GNU Library General Public License version 2 can be
+ found in `/usr/share/common-licenses/LGPL-2', likewise, the complete text fo
+ the GNU Lesser General Public License version 3 can be found in
+ `/usr/share/common-licenses/LGPL-3'.
