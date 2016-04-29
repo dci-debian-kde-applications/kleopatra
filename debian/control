@@ -32,6 +32,8 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kleopatra.git
 Package: kleopatra
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kdepim-doc (<= 4:16.04)
+Replaces: kdepim-doc (<= 4:16.04)
 Description: Certificate Manager and Unified Crypto GUI
  Kleopatra is a certificate manager and a universal crypto GUI. It supports
  managing X.509 and OpenPGP certificates in the GpgSM keybox and retrieving
