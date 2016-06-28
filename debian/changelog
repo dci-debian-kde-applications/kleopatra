@@ -1,10 +1,8 @@
-kleopatra (4:16.04.2-1~1.gbpae4461) UNRELEASED; urgency=medium
+kleopatra (4:16.04.2-1) experimental; urgency=medium
 
-  ** SNAPSHOT build @ae4461ef95d26d7f447704b0ef5dca52c78b14bb **
+  * New upstream release.
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 04:54:11 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jun 2016 08:55:24 +0200
 
 kleopatra (4:16.04.0-1) experimental; urgency=medium
 
