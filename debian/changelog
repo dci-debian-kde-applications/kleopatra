@@ -1,6 +1,6 @@
-kleopatra (4:16.08.0-1~1.gbp719071) UNRELEASED; urgency=medium
+kleopatra (4:16.08.1-1~1.gbp0fe298) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @71907182d4dd62bd23ae485662314d0b810411dd **
+  ** SNAPSHOT build @0fe298e94ad5558672e22621ac8c2efa592bc725 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @de6ee042f1fe1c604c749723ea7556998c808aba **
@@ -9,8 +9,9 @@ kleopatra (4:16.08.0-1~1.gbp719071) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 22:54:14 +0200
+ -- Automatic packaging <jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 22:54:38 +0200
 
 kleopatra (4:16.04.2-2) unstable; urgency=medium
 
