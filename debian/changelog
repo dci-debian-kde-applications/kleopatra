@@ -6,6 +6,7 @@ kleopatra (4:16.04.2-3~) UNRELEASED; urgency=medium
   * Build against GpgME>=1.8.0, to get rid of gpgmepp
     - Update Build-Deps (libgpgme11-dev-, libkf5gpgmepp-dev-, libgpgmepp-dev+)
     - Add a patch remove_gpgmepp.patch to build with GpgME
+  * enable autotests
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2016 19:55:30 +0100
 
