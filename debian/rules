@@ -3,6 +3,8 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
 override_dh_auto_install:
+	rm -f debian/tmp/usr/lib/*/libkleopatraclientcore.so
+	rm -f debian/tmp/usr/lib/*/libkleopatraclientgui.so
 	$(overridden_command) --destdir=debian/tmp
 
 override_dh_auto_test:
