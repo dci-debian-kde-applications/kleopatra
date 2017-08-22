@@ -8,15 +8,16 @@ Build-Depends: cmake (>= 2.8.12~),
                extra-cmake-modules (>= 5.17.0~),
                kdoctools-dev (>= 5.17.0~),
                libboost-dev (>= 1.34.0~),
-               libgpgme11-dev,
+               libgpgme-dev | libgpgme11-dev,
+               libgpgmepp-dev | libqgpgme7-dev,
                libkf5codecs-dev (>= 5.17.0~),
                libkf5config-dev (>= 5.17.0~),
                libkf5configwidgets-dev (>= 5.17.0~),
                libkf5coreaddons-dev (>= 5.17.0~),
                libkf5dbusaddons-dev (>= 5.17.0~),
-               libkf5gpgmepp-dev (>= 5.2.81~),
                libkf5i18n-dev (>= 5.17.0~),
                libkf5iconthemes-dev (>= 5.17.0~),
+               libkf5itemmodels-dev,
                libkf5kcmutils-dev (>= 5.17.0~),
                libkf5libkleo-dev (>= 5.1.41~),
                libkf5mime-dev (>= 5.1.40~),
@@ -34,9 +35,16 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kleopatra.git
 
 Package: kleopatra
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kdepim-doc (<= 4:16.04)
-Replaces: kdepim-doc (<= 4:16.04)
+Depends: dirmngr,
+         gnupg-agent,
+         gnupg2,
+         gpgsm,
+         paperkey,
+         pinentry-qt,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Breaks: kdepim-doc (<= 4:16.04), ${kde-l10n:all}
+Replaces: kdepim-doc (<= 4:16.04), ${kde-l10n:all}
 Description: Certificate Manager and Unified Crypto GUI
  Kleopatra is a certificate manager and a universal crypto GUI. It supports
  managing X.509 and OpenPGP certificates in the GpgSM keybox and retrieving
