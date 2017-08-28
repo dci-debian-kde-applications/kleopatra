@@ -70,21 +70,6 @@ kleopatra (4:16.08.2-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Fri, 14 Oct 2016 13:39:53 +0000
 
-kleopatra (4:16.08.1-1~1.gbp0fe298) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @0fe298e94ad5558672e22621ac8c2efa592bc725 **
-
-  [ Maximiliano Curia ]
-  ** SNAPSHOT build @de6ee042f1fe1c604c749723ea7556998c808aba **
-
-  * UNRELEASED
-
-  [ Automatic packaging ]
-  * Update build-deps and deps with the info from cmake
-  * UNRELEASED
-
- -- Automatic packaging <jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 22:54:38 +0200
-
 kleopatra (4:16.08.1-0neon) xenial; urgency=medium
 
   * New release
