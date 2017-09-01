@@ -1,8 +1,9 @@
-kleopatra (4:17.08.0-1~) UNRELEASED; urgency=medium
+kleopatra (4:17.08.0-1) experimental; urgency=medium
 
   * New upstream release (17.08.0)
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 22 Aug 2017 13:42:41 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 01 Sep 2017 22:20:35 +0200
 
 kleopatra (4:17.08.0-0neon) xenial; urgency=medium
 
