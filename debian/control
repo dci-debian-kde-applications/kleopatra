@@ -32,7 +32,14 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kleopatra.git
 
 Package: kleopatra
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: dirmngr,
+         gnupg-agent,
+         gnupg2,
+         gpgsm,
+         paperkey,
+         pinentry-qt,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Breaks: kdepim-doc (<= 4:16.04), ${kde-l10n:all}
 Replaces: kdepim-doc (<= 4:16.04), ${kde-l10n:all}
 Description: Certificate Manager and Unified Crypto GUI
