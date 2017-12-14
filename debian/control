@@ -43,14 +43,8 @@ Depends: dirmngr,
          pinentry-qt,
          ${misc:Depends},
          ${shlibs:Depends},
-Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
-        kde-l10n-eo (<< 4:17.03.90-0~),
-        kdepim-doc (<= 4:16.04),
-        ${kde-l10n:all},
-Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
-          kde-l10n-eo (<< 4:17.03.90-0~),
-          kdepim-doc (<= 4:16.04),
-          ${kde-l10n:all},
+Breaks: kdepim-doc (<= 4:16.04), ${kde-l10n:all}
+Replaces: kdepim-doc (<= 4:16.04), ${kde-l10n:all}
 Description: Certificate Manager and Unified Crypto GUI
  Kleopatra is a certificate manager and a universal crypto GUI. It supports
  managing X.509 and OpenPGP certificates in the GpgSM keybox and retrieving
