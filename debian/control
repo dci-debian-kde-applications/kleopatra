@@ -37,7 +37,7 @@ Package: kleopatra
 Architecture: any
 Depends: dirmngr,
          gnupg-agent,
-         gnupg2,
+         gnupg,
          gpgsm,
          paperkey,
          pinentry-qt,
