@@ -36,7 +36,6 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kleopatra.git
 Package: kleopatra
 Architecture: any
 Depends: dirmngr,
-         gnupg-agent,
          gnupg,
          gpgsm,
          paperkey,

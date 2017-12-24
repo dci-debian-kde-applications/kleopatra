@@ -1,7 +1,8 @@
 kleopatra (4:17.08.3-2) UNRELEASED; urgency=medium
 
   [ Pino Toscano ]
-  * Switch the deprecated gnupg2 dependency to gnupg.
+  * Switch the deprecated gnupg2 dependency to gnupg, and drop gnupg-agent.
+    (Closes: #885148)
   * Simplify watch file, and switch it to https.
   * Stop forcing debian/tmp as local installation directory, installing
     everything to the final location
